@@ -1,0 +1,116 @@
+#carouselExampleCaptions {
+    background-color: #212529;
+}
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    height: 100%;
+    width: auto !important;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.carousel-item.slide_2 img{
+    width: auto !important;
+    height: auto;
+}
+.carousel-caption {
+    background: #0d6efd;
+    border-radius: 15px;
+}
+.jumbotron {
+    padding-top: 4rem;
+}
+nav {
+    padding: 10px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    background-color: green;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+nav .shadow {
+    margin: 0 !important;
+}
+.navbar-dark .navbar-brand {
+    color: green !important;
+}
+.register_card button {
+    width: 100%;
+}
+.register_card img {
+    padding: 16px;
+}
+.container {
+    padding-top: 42px;
+}
+main {
+    padding-bottom : 16px;
+}
+
+.social_media_icons {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+}
+.social_media_icons.facebook {
+    background-image: url(../assets/icons/facebook.svg);
+    fill: blue;
+}
+.social_media_icons.youtube {
+    background-image: url(../assets/icons/youtube.svg);
+    fill: red;
+}
+.social_media_icons.whatsapp {
+    background-image: url(../assets/icons/whatsapp.svg);
+    fill: green;
+}
+.social_media_icons.email {
+    background-image: url(../assets/icons/email.svg);
+    fill: green;
+}
+.social_media_wrapper {
+    height: 110px;
+    width: 290px;
+    margin: 24px 0 !important;
+    float: left;
+}
+.logo_wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_wrapper i {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../assets/icons/recycle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1366px) {
+    .carousel-item img {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .carousel-item.slide_2 img{
+        width: auto !important;
+        height: 100% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .carousel-item.slide_2 img{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
